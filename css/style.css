@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Merriweather', serif;*/
+
+/*inicio header*/
+header { 
+    background-color: black;
+    
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.encabezado div a img{
+    width: 50%;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-left: 15px;
+    border-radius: 10%;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.navBar li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 15px ;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navBar li a:hover{
+    color: chocolate;
+    font-size: 20px;
+}
+
+/* inicio del main*/
+body{background-color: rgb(6, 6, 6);}
+
+main{background-color: white;}
+
+/*index*/
+.containerImagen {
+    width: 100%;
+    height:350px ;
+    background-image: url(../assets/frente.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box p{
+    padding: 180px 80px;
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 40px ;
+    font-style: oblique;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.destacados{
+    height: 80vh;
+    display: grid;
+    grid-template-columns:repeat(5,1fr)
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    ". titulo titulo titulo ."
+    ". cardCentral1 cardCentral2 cardCentral3 .";
+}
+
+.titulo{
+    grid-area: titulo;
+    color: black;
+    font-style: oblique;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 20PX;    
+}
+
+.cardCentral1{
+    grid-area: cardCentral1;
+    margin-bottom: 25px;
+}
+
+.cardCentral1 img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 90%;
+    box-shadow: 5px 5px 25px black
+}
+
+.cardCentral2{
+    grid-area: cardCentral2;
+    margin-bottom: 25px;
+}
+
+.cardCentral2 img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 90%;
+    box-shadow: 5px 5px 25px black
+}
+
+.cardCentral3{
+    grid-area: cardCentral3;
+    margin-bottom: 25px;
+    
+}
+
+.cardCentral3 img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 90%;
+    box-shadow: 5px 5px 25px black
+}
+/*contacto*/
+
+
+.containerContacto {
+    width: 800px;
+    color: black;
+    padding: 60px;
+    margin: auto;
+}
+
+.leyenda{
+    font-size: 25px;
+    font-weight: 900;
+    font-style: oblique;
+    font-family: 'Merriweather', serif;
+}
+
+.datos {
+    width: 95%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 17px ;
+    font-style: oblique;
+    font-family: 'Merriweather', serif;
+}
+
+.card-tel{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 30px 30px;
+}
+
+.tel{
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 17px ;
+    font-style: oblique;
+    font-family: 'Merriweather', serif;
+}
+
+/*inicio del footer*/
+
+.pie {
+    margin-bottom:  auto;
+    width: 100%;
+    
+}
+
+.pie h5{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px ;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.pie h6{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 10px ;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    text-align: center; 
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+/* responsive designe index*/
+
+@media (max-width:768px) {
+    .encabezado {
+        gap: 10px;
+    }
+
+    .encabezado div a img{
+        width: 70%;
+    }
+
+    .navBar{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .navBar li a{
+        color: azure;
+        text-decoration: none;
+        font-size: 15px ;
+        font-style: normal;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .navBar li a:hover{
+        color: chocolate;
+        font-size: 15px;
+    }
+
+    .containerImagen {
+        height:250px ;
+    }
+
+    .box p{
+        padding: 120px;
+        font-weight: 400;
+        font-size: 30px ;
+    }
+
+    .destacados{
+        height: 60vh;
+    }
+
+    .titulo{
+        font-style: oblique;
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 20PX;    
+    }
+
+    .cardCentral1 img{
+        width: 70%;
+    }
+    .cardCentral2 img{
+        width: 70%;
+    }
+    .cardCentral3 img{
+        width: 70%;
+    }
+
+    .pie h5{
+        font-weight: 200;
+        font-size: 9px ;
+    }
+    
+    .pie h6{
+        font-weight: 200;
+        font-size: 8px ;
+    }
+}
+
+@media (max-width:320px){
+    .encabezado {
+        gap: 5px;
+    }
+
+    .encabezado div a img{
+        width: 60%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 25px;
+    }
+
+    .navBar{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        
+    }
+
+    .navBar li a{
+        color: azure;
+        text-decoration: none;
+        font-size: 10px ;
+        font-style: normal;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .navBar li a:hover{
+        color: chocolate;
+        font-size: 10px;
+    }
+
+    .containerImagen {
+        height:150px ;
+    }
+
+    .box p{
+        padding: 70px;
+        font-weight: 700;
+        font-size: 12px ;
+    }
+
+    .destacados{
+        height: 80vh;
+        display: grid;
+        grid-template-columns:repeat(1,1fr)
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "titulo"
+        "cardCentral1"
+        "cardCentral2"
+        "cardCentral3";
+    }
+
+    .titulo{
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: 20PX;    
+    }
+
+    .cardCentral1 img{
+        width: 40%;
+    }
+    .cardCentral2 img{
+        width: 40%;
+    }
+    .cardCentral3 img{
+        width: 40%;
+    }
+
+    .pie h5{
+        font-weight: 100;
+        font-size: 7px ;
+    }
+    
+    .pie h6{
+        font-weight: 80;
+        font-size: 6px ;
+    }
+}
