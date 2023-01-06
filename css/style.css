@@ -276,6 +276,33 @@ main{background-color: white;}
         width: 70%;
     }
 
+    /* contacto*/
+
+    .containerContacto {
+        width: 500px;
+        height: 500px;
+        color: black;
+        padding: 30px;
+        margin: auto;
+    }
+    
+    .leyenda{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .datos {
+        font-weight: 300;
+        font-size: 12px ;
+    }
+    
+    .tel{
+        font-weight: 500;
+        font-size: 12px ;
+        
+    }
+    
+
     .pie h5{
         font-weight: 200;
         font-size: 9px ;
@@ -357,6 +384,37 @@ main{background-color: white;}
     }
     .cardCentral3 img{
         width: 40%;
+    }
+
+        /* contacto*/
+
+    .containerContacto {
+        width: 250px;
+        color: black;
+        padding: 15px;
+        margin: auto;
+    }
+    
+    .leyenda{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    
+    .datos {
+        width: 60%;
+        font-weight: 200;
+        font-size: 8px ;
+    }
+    
+    .card-tel{
+        padding: 10px 
+    }
+    
+    .tel{
+        padding: 10px;
+        font-weight: 300;
+        font-size: 8px ;
+        
     }
 
     .pie h5{
