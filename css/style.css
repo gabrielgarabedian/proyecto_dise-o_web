@@ -30,7 +30,7 @@ header {
 .navBar{
     display: flex;
     flex-direction: row-reverse;
-    gap: 10px;
+    gap: 35px;
     margin-right: 20px;
     margin-top: 40px;
 }
@@ -44,8 +44,7 @@ header {
 }
 
 .navBar li a:hover{
-    color: chocolate;
-    font-size: 20px;
+    color: chocolate;    
 }
 
 /* inicio del main*/
@@ -180,17 +179,18 @@ main{background-color: white;}
 }
 
 /* sucursal */
-
+.container-suc{
+    height: 80vh;
+}
 .principal-card{
-    padding: 70px;
+    padding: 40px;
     display: flex;
-    height: 90%;
+    height: 100%;
     gap: 30px;
     margin-right: 40px;
     margin-left: 70px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    
+    margin-top: 0px;
+    margin-bottom: 6px;
 }
 
 .card1 img{
@@ -209,6 +209,7 @@ main{background-color: white;}
     font-size: 20px ;
     font-style: normal;
     font-family: 'Roboto Slab', serif;
+    margin-top: 80px;
 }
 
 .principal-info div p{
@@ -217,11 +218,11 @@ main{background-color: white;}
     text-align: center;
     color: grey;
     font-weight: 500;
-    font-size: 15px ;
+    font-size: 12px ;
     font-style: oblique;
     font-family: 'Merriweather', serif;
     text-align: center;
-    margin: 50px 20px 
+    margin: 10px 10px 
 }
 
 /* historia */
@@ -370,19 +371,7 @@ main{background-color: white;}
         align-items: flex-end;
         margin-bottom: 5px;
         margin-top: 5px;
-    }
-
-    .navBar li a{
-        color: azure;
-        text-decoration: none;
-        font-size: 15px ;
-        font-style: normal;
-        font-family: 'Roboto Slab', serif;
-    }
-
-    .navBar li a:hover{
-        color: chocolate;
-        font-size: 15px;
+        gap: 5px;
     }
 
     .containerImagen {
@@ -470,7 +459,34 @@ main{background-color: white;}
     font-weight: 500;
     font-size: 12px ;
 }
+/* sucursal */
 
+.principal-card{
+    flex-direction: column;
+    height: 80vh;
+    gap: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;    
+}
+.card1 img{
+    height: 300px;
+}
+
+.principal-info div h1{
+    font-weight: 500;
+    font-size: 15px ;
+    margin-top: 5px;
+}
+
+.principal-info div p{
+    color: grey;
+    font-weight: 500;
+    font-size: 12px ;
+    margin: 5px 5px 
+    
+}
     /* footer  */
     .pie h5{
         font-weight: 200;
@@ -505,35 +521,33 @@ main{background-color: white;}
 }  
 @media (max-width:320px){
     .encabezado {
-        gap: 5px;
+        gap: 2px;
     }
 
     .encabezado div a img{
-        width: 60%;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        width: 65%;
+        margin-top: 10px;
+        margin-bottom: 10px;
         margin-left: 25px;
     }
 
     .navBar{
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: flex-end;
         margin-bottom: 5px;
         margin-top: 5px;
-        
+        gap: 5px;
     }
 
-    .navBar li a{
-        color: azure;
-        text-decoration: none;
-        font-size: 10px ;
-        font-style: normal;
-        font-family: 'Roboto Slab', serif;
+    .navBar li a{ 
+        font-size: 11px ;
     }
-
-    .navBar li a:hover{
-        color: chocolate;
-        font-size: 10px;
+    .navBar{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        gap: 5px;
     }
 
     .containerImagen {
@@ -653,6 +667,30 @@ main{background-color: white;}
 }
     
 .description {
+    color: grey;
+    font-weight: 300;
+    font-size: 10px ;
+}
+ 
+/* sucursal */
+
+.principal-card{
+    flex-direction: column;
+    height: 80vh;
+    gap: 10px;
+    margin:0px 15px;   
+}
+.card1 img{
+    width: 100%;
+    height: 150px;
+}
+
+.principal-info div h1{
+    font-weight: 400;
+    font-size: 13px ;
+}
+
+.principal-info div p{
     color: grey;
     font-weight: 300;
     font-size: 10px ;
