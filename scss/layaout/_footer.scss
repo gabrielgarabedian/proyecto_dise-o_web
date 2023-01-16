@@ -1,0 +1,21 @@
+footer{
+    background-color: $bg-principal;
+}
+
+.pie {
+    margin-bottom:  auto;
+    width: 100%;
+    h5{
+        color: $bg-secundario;
+        text-decoration: none;
+        @include fonts(14px,500,$typo-principal,normal)
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    h6 {
+        @extend h5 ;
+        font-weight: 400;
+        font-size: 10px ;
+    }
+}

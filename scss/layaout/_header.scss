@@ -1,0 +1,39 @@
+header {
+    background-color: $bg-principal;
+}
+.encabezado {
+    @include flex-content
+    gap: 50px;
+    div {
+        a{
+            img{
+                width: 50%;
+                object-fit: cover;
+                margin-top: 5px;
+                margin-bottom: 4px;
+                margin-left: 15px;
+                border-radius: 10%;
+            }
+        }
+    }
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 35px;
+    margin-right: 20px;
+    margin-top: 40px;
+    li {
+        a{
+            color: $navBar;
+            text-decoration: none;
+            font-size: 15px ;
+            font-style: normal;
+            font-family: 'Roboto Slab', serif;
+            &:hover{
+                color: $hover;  
+            }
+        }
+    }
+}

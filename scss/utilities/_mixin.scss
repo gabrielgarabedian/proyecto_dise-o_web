@@ -1,0 +1,19 @@
+@mixin flex-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin fonts ($size,$weight,$family,$style){
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+    font-style: $style;
+}
+
+@mixin index-img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 75%;
+    box-shadow: 5px 5px 25px $bg-principal;
+}
