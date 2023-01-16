@@ -221,14 +221,13 @@ main{background-color: white;}
     font-size: 12px ;
     font-style: oblique;
     font-family: 'Merriweather', serif;
-    text-align: center;
     margin: 10px 10px 
 }
 
 /* historia */
 
 .containerNosotros{
-    height: 300px;
+    height: 80vh;
 }
 .containerNosotros p {
     color: grey;

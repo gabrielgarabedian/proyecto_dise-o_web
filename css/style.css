@@ -58,50 +58,60 @@ main {
 .destacados {
   height: 80vh;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: ". titulo titulo titulo ." ". cardCentral1 cardCentral2 cardCentral3 ."; }
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "titulo titulo titulo" "cardCentral1 cardCentral2 cardCentral3" "pagos pagos pagos"; }
   .destacados .titulo {
     grid-area: titulo; }
     .destacados .titulo h1 {
       color: black;
-      font-size: 45px;
+      font-size: 40px;
       font-weight: 600;
       font-family: "Roboto Slab", serif;
       font-style: oblique;
       letter-spacing: 4px;
       text-align: center;
-      margin: 40PX; }
-  .destacados div.cardCentral1 {
+      margin: 10PX; }
+  .destacados .cardCentral1 {
     grid-area: cardCentral1;
-    margin-bottom: 25px; }
-    .destacados div.cardCentral1 img {
+    margin-bottom: 15px; }
+    .destacados .cardCentral1 img {
       display: block;
       margin: auto;
       border-radius: 50%;
       width: 75%;
       box-shadow: 5px 5px 25px black; }
-  .destacados div.cardCentral2 {
+  .destacados .cardCentral2 {
     grid-area: cardCentral2;
-    margin-bottom: 25px; }
-    .destacados div.cardCentral2 img {
+    margin-bottom: 15px; }
+    .destacados .cardCentral2 img {
       display: block;
       margin: auto;
       border-radius: 50%;
       width: 75%;
       box-shadow: 5px 5px 25px black; }
-  .destacados div.cardCentral3 {
+  .destacados .cardCentral3 {
     grid-area: cardCentral3;
-    margin-bottom: 40px; }
-    .destacados div.cardCentral3 img {
+    margin-bottom: 15px; }
+    .destacados .cardCentral3 img {
       display: block;
       margin: auto;
       border-radius: 50%;
       width: 75%;
       box-shadow: 5px 5px 25px black; }
+  .destacados .pagos {
+    grid-area: pagos; }
+    .destacados .pagos p {
+      font-size: 20px;
+      font-weight: 400;
+      font-family: "Roboto Slab", serif;
+      font-style: normal;
+      text-align: center;
+      margin-top: 45px; }
 
 .containerContacto {
   width: 800;
+  height: 80vh;
   padding: 60px;
   color: black;
   margin: auto; }
@@ -142,6 +152,113 @@ main {
     font-family: white;
     font-style: oblique; }
 
+.container-suc {
+  height: 80vh; }
+  .container-suc .principal-card {
+    padding: 40px;
+    display: flex;
+    height: 100%;
+    gap: 30px;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 6px; }
+    .container-suc .principal-card .card1 img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      margin-right: 400px; }
+    .container-suc .principal-card .principal-info div h1 {
+      padding: 5px 5px;
+      text-align: center;
+      color: black;
+      font-size: 30px;
+      font-weight: 600;
+      font-family: "Roboto Slab", serif;
+      font-style: normal;
+      text-decoration: none;
+      margin-top: 40px; }
+    .container-suc .principal-card .principal-info div p {
+      padding: 5px 5px;
+      text-align: center;
+      color: grey;
+      margin: 8px;
+      font-size: 18px;
+      font-weight: 500px;
+      font-family: "Merriweather", serif;
+      font-style: oblique; }
+
+.containerNosotros {
+  height: 80vh; }
+  .containerNosotros h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Roboto Slab", serif;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 35px; }
+  .containerNosotros p {
+    color: grey;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    font-style: oblique;
+    text-align: center;
+    margin: 50px 40px; }
+
+.tienda {
+  width: 90%;
+  margin: auto; }
+  .tienda h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Roboto Slab", serif;
+    font-style: oblique;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 40px;
+    padding-bottom: 50px; }
+  .tienda .contProd {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .tienda .contProd .card-item {
+      display: block;
+      margin: 20px; }
+      .tienda .contProd .card-item .item {
+        border-radius: 10px; }
+        .tienda .contProd .card-item .item:hover {
+          box-shadow: 0 10px 20px black; }
+        .tienda .contProd .card-item .item img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 10px 10px 0px 0px;
+          transition: all .5s; }
+          .tienda .contProd .card-item .item img:hover {
+            transform: scale(1.2); }
+        .tienda .contProd .card-item .item figure {
+          overflow: hidden; }
+        .tienda .contProd .card-item .item .info-product {
+          padding: 15px 30px;
+          text-align: center; }
+          .tienda .contProd .card-item .item .info-product h2 {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: "Roboto Slab", serif;
+            font-style: normal; }
+          .tienda .contProd .card-item .item .info-product p {
+            color: grey;
+            font-size: 12px;
+            font-weight: 200;
+            font-family: "Merriweather", serif;
+            font-style: oblique; }
+
 footer {
   background-color: black; }
 
@@ -161,3 +278,124 @@ footer {
   .pie h6 {
     font-weight: 400;
     font-size: 10px; }
+
+@media (max-width: 768px) {
+  .encabezado {
+    gap: 10px; }
+    .encabezado div a img {
+      width: 70%; }
+    .encabezado .navBar {
+      flex-direction: column-reverse;
+      align-items: flex-end;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      gap: 5px; }
+  .containerImagen {
+    height: 250px; }
+    .containerImagen .box p {
+      padding: 90px;
+      font-weight: 500;
+      font-size: 30px; }
+  .destacados .titulo h1 {
+    letter-spacing: 2px;
+    font-size: 60;
+    font-weight: 900;
+    margin-top: 30PX;
+    color: red; }
+  .destacados .cardCentral1 img {
+    width: 85%; }
+  .destacados .cardCentral2 img {
+    width: 85%; }
+  .destacados .cardCentral3 img {
+    width: 85%; }
+  .destacados .pagos p {
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic; }
+  .containerContacto {
+    width: 500px;
+    padding: 30px;
+    margin: auto; }
+    .containerContacto .leyenda {
+      font-size: 15px;
+      font-weight: 700; }
+    .containerContacto .text {
+      font-size: 10px;
+      font-weight: 200;
+      font-family: "Roboto Slab", serif;
+      font-style: oblique;
+      padding: 8px; }
+    .containerContacto .datos {
+      font-weight: 300;
+      font-size: 12px; }
+  .phone div div {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500; }
+  .tienda h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding-top: 25px;
+    padding-bottom: 35px; }
+  .tienda .contProd .card-item {
+    margin-bottom: 25px; }
+    .tienda .contProd .card-item .item img {
+      height: 150px; }
+    .tienda .contProd .card-item .item .info-product {
+      padding: 15px 25px; }
+      .tienda .contProd .card-item .item .info-product h2 {
+        font-weight: 500;
+        font-size: 20px;
+        color: red; }
+  .container-suc .principal-card {
+    flex-direction: column;
+    height: 80vh;
+    gap: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px; }
+    .container-suc .principal-card .card1 img {
+      height: 300px; }
+    .container-suc .principal-card .principal-info div h1 {
+      font-weight: 500;
+      font-size: 15px;
+      margin-top: 5px; }
+    .container-suc .principal-card .principal-info div p {
+      color: black;
+      font-weight: 2    00;
+      font-size: 20px;
+      margin: 5px 5px; }
+  .containerNosotros h1 {
+    font-size: 25px;
+    font-weight: 500; }
+  .containerNosotros p {
+    font-size: 14px;
+    color: black; }
+  .pie h5, .pie h6 {
+    font-weight: 300;
+    font-size: 9px; }
+  .pie h6 {
+    font-weight: 200;
+    font-size: 8px; } }
+
+@media (max-width: 320px) {
+  .encabezado {
+    gap: 2px; }
+    .encabezado div a img {
+      width: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 25px; }
+    .encabezado .navBar {
+      gap: 2px; }
+      .encabezado .navBar li a {
+        font-size: 12px; }
+  .containerImagen {
+    height: 150px; }
+    .containerImagen .box p {
+      padding: 70px;
+      font-weight: 700;
+      font-size: 12px; } }
+
+/*destacados*/
