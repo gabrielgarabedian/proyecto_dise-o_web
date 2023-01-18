@@ -56,7 +56,7 @@ main {
     font-style: oblique; }
 
 .destacados {
-  height: 80vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -111,7 +111,7 @@ main {
 
 .containerContacto {
   width: 800;
-  height: 80vh;
+  height: 100vh;
   padding: 60px;
   color: black;
   margin: auto; }
@@ -153,7 +153,7 @@ main {
     font-style: oblique; }
 
 .container-suc {
-  height: 80vh; }
+  height: 100vh; }
   .container-suc .principal-card {
     padding: 40px;
     display: flex;
@@ -165,7 +165,7 @@ main {
     margin-bottom: 6px; }
     .container-suc .principal-card .card1 img {
       width: 100%;
-      height: 400px;
+      height: 550px;
       object-fit: cover;
       margin-right: 400px; }
     .container-suc .principal-card .principal-info div h1 {
@@ -189,7 +189,7 @@ main {
       font-style: oblique; }
 
 .containerNosotros {
-  height: 80vh; }
+  height: 100vh; }
   .containerNosotros h1 {
     color: black;
     font-size: 35px;
@@ -349,21 +349,20 @@ footer {
         color: red; }
   .container-suc .principal-card {
     flex-direction: column;
-    height: 80vh;
     gap: 15px;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-left: 10px;
     margin-top: 0px;
     margin-bottom: 5px; }
     .container-suc .principal-card .card1 img {
-      height: 300px; }
+      height: 400px; }
     .container-suc .principal-card .principal-info div h1 {
       font-weight: 500;
       font-size: 15px;
       margin-top: 5px; }
     .container-suc .principal-card .principal-info div p {
       color: black;
-      font-weight: 2    00;
+      font-weight: 300;
       font-size: 20px;
       margin: 5px 5px; }
   .containerNosotros h1 {
@@ -396,6 +395,83 @@ footer {
     .containerImagen .box p {
       padding: 70px;
       font-weight: 700;
-      font-size: 12px; } }
-
-/*destacados*/
+      font-size: 12px; }
+  .destacados {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "titulo" "cardCentral1" "cardCentral2" "cardCentral3" "pagos"; }
+    .destacados .titulo h1 {
+      font-size: 18px;
+      margin-top: 50px; }
+    .destacados .cardCentral1 img {
+      width: 65%; }
+    .destacados .cardCentral2 img {
+      width: 65%; }
+    .destacados .cardCentral3 img {
+      width: 65%; }
+    .destacados .pagos p {
+      font-size: 12px;
+      font-weight: 300;
+      font-style: normal;
+      color: red; }
+  .containerContacto {
+    width: 280px;
+    padding: 15px; }
+    .containerContacto .leyenda {
+      font-size: 12px;
+      font-weight: 500;
+      color: red; }
+    .containerContacto .text {
+      font-size: 8px;
+      padding: 5px; }
+    .containerContacto .datos {
+      font-weight: 300;
+      font-size: 12px;
+      width: 95%; }
+  .phone div {
+    padding: 5px; }
+    .phone div div img {
+      width: 60%; }
+    .phone div div {
+      padding: 3px;
+      font-size: 9px;
+      font-weight: 200; }
+  .tienda h1 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 25px; }
+  .tienda .contProd {
+    flex-direction: column; }
+    .tienda .contProd .card-item {
+      margin-bottom: 20px; }
+      .tienda .contProd .card-item .item .info-product {
+        padding: 10px 20px; }
+        .tienda .contProd .card-item .item .info-product h2 {
+          font-weight: 400;
+          font-size: 15px;
+          color: grey; }
+  .container-suc .principal-card {
+    gap: 10px;
+    margin-right: 5px;
+    margin-left: 5px; }
+    .container-suc .principal-card .card1 img {
+      height: 200px; }
+    .container-suc .principal-card .principal-info div h1 {
+      font-weight: 400;
+      font-size: 18px;
+      margin-top: 10px;
+      color: red; }
+    .container-suc .principal-card .principal-info div p {
+      color: black;
+      font-weight: 200;
+      font-size: 15px; }
+  .containerNosotros h1 {
+    color: red;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal; }
+  .containerNosotros p {
+    color: black;
+    font-size: 15; } }

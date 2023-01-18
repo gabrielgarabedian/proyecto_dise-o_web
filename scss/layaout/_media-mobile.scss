@@ -29,5 +29,125 @@
             font-size: 12px ;
         }
     }
+    .destacados{
+        @include grid-mobile
+        .titulo{
+            h1{
+                font-size: 18px;
+                margin-top: 50px;
+            }
+        }
+        .cardCentral1 img{
+            width: 65%;
+        }
+        .cardCentral2 img{
+            width: 65%;
+            
+        }
+        .cardCentral3 img{
+            width: 65%;
+        }
+        .pagos{
+            p{
+                font-size: 12px;
+                font-weight: 300;
+                font-style: normal;
+                color: $colorContacto;
+            }
+        }
+    }
+    .containerContacto{
+        width: 280px;
+        padding: 15px;
+        .leyenda{
+            font-size: 12px;
+            font-weight: 500;
+            color: $colorContacto;
+        }
+        .text{
+            font-size: 8px;
+            padding: 5px;
+        }
+        .datos {
+            font-weight: 300;
+            font-size: 12px ;
+            width: 95%;
+        }
+    }
+    .phone {
+        div {
+            padding: 5px;
+            div {
+                img {
+                    width: 60%;
+                }
+            }
+            div {
+                padding: 3px;
+                font-size: 9px;
+                font-weight: 200;
+            }
+        }
+    }  
+    .tienda{
+        h1{
+            font-size: 15px;
+            letter-spacing: 1px;
+            padding-top: 15px;
+            padding-bottom: 25px;
+        }   
+        .contProd{
+            flex-direction: column;
+            .card-item{
+                margin-bottom: 20px;
+                .item{
+                    .info-product{
+                        padding: 10px 20px;
+                        h2{
+                            font-weight: 400;
+                            font-size: 15px ;
+                            color: $bg-terciario;
+                        }
+                    }
+                }
+            }
+        }  
+    }
+    .container-suc {
+        .principal-card{
+            gap: 10px;
+            margin-right: 5px;
+            margin-left: 5px;
+            .card1 img{
+                height: 200px;
+            }  
+            .principal-info{
+                div{
+                    h1{
+                        font-weight: 400;
+                        font-size: 18px ;
+                        margin-top: 10px;
+                        color: $colorContacto;
+                    }
+                    p{
+                        color: $bg-principal;
+                        font-weight: 200;
+                        font-size: 15px ;
+                    }
+                }
+            }
+        }
+    }
+    .containerNosotros{
+        h1 {
+            color: $colorContacto;
+            font-size: 20px;
+            font-weight: 200;
+            font-style: normal;
+        }
+        p {
+            color: $bg-principal;
+            font-size: 15;
+        }
+    }
 }
-/*destacados*/

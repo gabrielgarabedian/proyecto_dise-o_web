@@ -109,14 +109,13 @@
     .container-suc {
         .principal-card{
             flex-direction: column;
-            height: 80vh;
             gap: 15px;
-            margin-right: 5px;
+            margin-right: 10px;
             margin-left: 10px;
             margin-top: 0px;
             margin-bottom: 5px;  
             .card1 img{
-                height: 300px;
+                height: 400px;
             }  
             .principal-info{
                 div{
@@ -127,7 +126,7 @@
                     }
                     p{
                         color: $bg-principal;
-                        font-weight: 2    00;
+                        font-weight: 300;
                         font-size: 20px ;
                         margin: 5px 5px 
                     }
