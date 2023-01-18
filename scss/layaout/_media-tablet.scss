@@ -25,6 +25,8 @@
         }
     }
     .destacados{
+        @include flex-content(flex,space-around);
+        flex-wrap: wrap;
         .titulo{
             h1{
                 letter-spacing: 2px;
@@ -35,26 +37,26 @@
             }
         }
         .cardCentral1 img{
-            width: 85%;
+            width: 80%;
         }
         .cardCentral2 img{
-            width: 85%;
+            width: 80%;
             
         }
         .cardCentral3 img{
-            width: 85%;
+            width: 80%;
         }
         .pagos{
             p{
-                font-size: 25px;
-                font-weight: 600;
+                font-size: 15px;
+                font-weight: 500;
                 font-style: italic;
             }
         }
         
     }
     .containerContacto {
-        width: 500px;
+        width: 340px;
         padding: 30px;
         margin: auto;
         .leyenda{
@@ -72,9 +74,15 @@
     }
     .phone {
         div {
+            padding: 2px;
             div {
-                padding: 10px;
-                font-size: 15px;
+                img {
+                    width: 45%;
+                }
+            }
+            div {
+                padding: 5px;
+                font-size: 12px;
                 font-weight: 500;
             }
         }

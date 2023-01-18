@@ -1,6 +1,6 @@
-@mixin flex-content{
-    display: flex;
-    justify-content: space-between;
+@mixin flex-content($flex,$justify){
+    display: $flex;
+    justify-content: $justify;
 }
 
 @mixin grid1{
@@ -11,6 +11,17 @@
         "titulo titulo titulo"
         "cardCentral1 cardCentral2 cardCentral3"
         "pagos pagos pagos";
+}
+
+@mixin grid-tablet{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas:
+    "titulo titulo"
+    "cardCentral1 cardCentral2"
+    "cardCentral3 cardCentral3"
+    "pagos pagos";
 }
 
 @mixin grid-mobile{

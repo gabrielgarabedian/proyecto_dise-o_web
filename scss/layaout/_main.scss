@@ -87,7 +87,7 @@ main {
 
 .phone {
     div {
-        @include flex-content ;
+        @include flex-content (flex,space-around);
         padding: 30px 20px 30px 30px;
         div {
             padding: 20px;
@@ -157,7 +157,7 @@ main {
 }
 
 .tienda{
-    width: 90%;
+    width: 95%;
     margin: auto;
     h1 {
         color: $bg-principal;
@@ -169,7 +169,7 @@ main {
     }
     .contProd{
         width: 100%;
-        @include flex-content
+        @include flex-content(flex, space-around);
         flex-wrap: wrap;
         .card-item{
             display: block;

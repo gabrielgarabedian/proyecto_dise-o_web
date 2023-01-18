@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: black; }
+  background-color: red; }
 
 header {
   background-color: black; }
@@ -141,7 +141,7 @@ main {
 
 .phone div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 30px 20px 30px 30px; }
   .phone div div {
     padding: 20px;
@@ -208,7 +208,7 @@ main {
     margin: 50px 40px; }
 
 .tienda {
-  width: 90%;
+  width: 95%;
   margin: auto; }
   .tienda h1 {
     color: black;
@@ -223,7 +223,7 @@ main {
   .tienda .contProd {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap; }
     .tienda .contProd .card-item {
       display: block;
@@ -296,24 +296,28 @@ footer {
       padding: 90px;
       font-weight: 500;
       font-size: 30px; }
-  .destacados .titulo h1 {
-    letter-spacing: 2px;
-    font-size: 60;
-    font-weight: 900;
-    margin-top: 30PX;
-    color: red; }
-  .destacados .cardCentral1 img {
-    width: 85%; }
-  .destacados .cardCentral2 img {
-    width: 85%; }
-  .destacados .cardCentral3 img {
-    width: 85%; }
-  .destacados .pagos p {
-    font-size: 25px;
-    font-weight: 600;
-    font-style: italic; }
+  .destacados {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .destacados .titulo h1 {
+      letter-spacing: 2px;
+      font-size: 60;
+      font-weight: 900;
+      margin-top: 30PX;
+      color: red; }
+    .destacados .cardCentral1 img {
+      width: 80%; }
+    .destacados .cardCentral2 img {
+      width: 80%; }
+    .destacados .cardCentral3 img {
+      width: 80%; }
+    .destacados .pagos p {
+      font-size: 15px;
+      font-weight: 500;
+      font-style: italic; }
   .containerContacto {
-    width: 500px;
+    width: 340px;
     padding: 30px;
     margin: auto; }
     .containerContacto .leyenda {
@@ -328,10 +332,14 @@ footer {
     .containerContacto .datos {
       font-weight: 300;
       font-size: 12px; }
-  .phone div div {
-    padding: 10px;
-    font-size: 15px;
-    font-weight: 500; }
+  .phone div {
+    padding: 2px; }
+    .phone div div img {
+      width: 45%; }
+    .phone div div {
+      padding: 5px;
+      font-size: 12px;
+      font-weight: 500; }
   .tienda h1 {
     font-size: 28px;
     letter-spacing: 3px;
@@ -405,18 +413,18 @@ footer {
       font-size: 18px;
       margin-top: 50px; }
     .destacados .cardCentral1 img {
-      width: 65%; }
+      width: 45%; }
     .destacados .cardCentral2 img {
-      width: 65%; }
+      width: 45%; }
     .destacados .cardCentral3 img {
-      width: 65%; }
+      width: 45%; }
     .destacados .pagos p {
       font-size: 12px;
       font-weight: 300;
       font-style: normal;
       color: red; }
   .containerContacto {
-    width: 280px;
+    width: 200px;
     padding: 15px; }
     .containerContacto .leyenda {
       font-size: 12px;
@@ -430,7 +438,7 @@ footer {
       font-size: 12px;
       width: 95%; }
   .phone div {
-    padding: 5px; }
+    padding: 4px; }
     .phone div div img {
       width: 60%; }
     .phone div div {
@@ -443,7 +451,8 @@ footer {
     padding-top: 15px;
     padding-bottom: 25px; }
   .tienda .contProd {
-    flex-direction: column; }
+    flex-direction: column;
+    align-content: center; }
     .tienda .contProd .card-item {
       margin-bottom: 20px; }
       .tienda .contProd .card-item .item .info-product {
@@ -469,9 +478,16 @@ footer {
       font-size: 15px; }
   .containerNosotros h1 {
     color: red;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
     font-style: normal; }
   .containerNosotros p {
     color: black;
-    font-size: 15; } }
+    font-size: 12px;
+    font-weight: 300; }
+  .pie h5, .pie h6 {
+    font-weight: 200;
+    font-size: 7px; }
+  .pie h6 {
+    font-weight: 100;
+    font-size: 5px; } }

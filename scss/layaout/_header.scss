@@ -2,7 +2,7 @@ header {
     background-color: $bg-principal;
 }
 .encabezado {
-    @include flex-content
+    @include flex-content(flex,space-between);
     gap: 50px;
     div {
         a{

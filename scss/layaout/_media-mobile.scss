@@ -38,14 +38,14 @@
             }
         }
         .cardCentral1 img{
-            width: 65%;
+            width: 45%;
         }
         .cardCentral2 img{
-            width: 65%;
+            width: 45%;
             
         }
         .cardCentral3 img{
-            width: 65%;
+            width: 45%;
         }
         .pagos{
             p{
@@ -57,7 +57,7 @@
         }
     }
     .containerContacto{
-        width: 280px;
+        width: 200px;
         padding: 15px;
         .leyenda{
             font-size: 12px;
@@ -76,7 +76,7 @@
     }
     .phone {
         div {
-            padding: 5px;
+            padding: 4px;
             div {
                 img {
                     width: 60%;
@@ -98,6 +98,7 @@
         }   
         .contProd{
             flex-direction: column;
+            align-content: center;
             .card-item{
                 margin-bottom: 20px;
                 .item{
@@ -141,13 +142,24 @@
     .containerNosotros{
         h1 {
             color: $colorContacto;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 200;
             font-style: normal;
         }
         p {
             color: $bg-principal;
-            font-size: 15;
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+    .pie {
+        h5{
+            font-weight: 200;
+            font-size: 7px ;
+        }
+        h6{
+            font-weight: 100;
+            font-size: 5px ;
         }
     }
 }
