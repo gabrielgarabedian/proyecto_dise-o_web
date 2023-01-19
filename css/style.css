@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: red; }
+  background-color: black; }
 
 header {
   background-color: black; }
@@ -153,6 +153,7 @@ main {
     font-style: oblique; }
 
 .container-suc {
+  width: 100%;
   height: 100vh; }
   .container-suc .principal-card {
     padding: 40px;
@@ -227,7 +228,7 @@ main {
     flex-wrap: wrap; }
     .tienda .contProd .card-item {
       display: block;
-      margin: 20px; }
+      margin: 8px; }
       .tienda .contProd .card-item .item {
         border-radius: 10px; }
         .tienda .contProd .card-item .item:hover {
@@ -363,7 +364,7 @@ footer {
     margin-top: 0px;
     margin-bottom: 5px; }
     .container-suc .principal-card .card1 img {
-      height: 400px; }
+      height: 600px; }
     .container-suc .principal-card .principal-info div h1 {
       font-weight: 500;
       font-size: 15px;
@@ -385,6 +386,11 @@ footer {
   .pie h6 {
     font-weight: 200;
     font-size: 8px; } }
+
+@media (max-width: 480px) {
+  .contProd {
+    flex-direction: column;
+    align-content: center; } }
 
 @media (max-width: 320px) {
   .encabezado {
