@@ -158,17 +158,16 @@ main {
   .container-suc .principal-card {
     padding: 40px;
     display: flex;
-    height: 100%;
     gap: 30px;
     margin-right: 40px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 0px;
     margin-bottom: 6px; }
     .container-suc .principal-card .card1 img {
       width: 100%;
-      height: 550px;
+      height: 350px;
       object-fit: cover;
-      margin-right: 400px; }
+      margin-right: 40px; }
     .container-suc .principal-card .principal-info div h1 {
       padding: 5px 5px;
       text-align: center;
@@ -358,17 +357,15 @@ footer {
         color: red; }
   .container-suc .principal-card {
     flex-direction: column;
-    gap: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 0px;
-    margin-bottom: 5px; }
-    .container-suc .principal-card .card1 img {
-      height: 600px; }
+    gap: 10px; }
+    .container-suc .principal-card .card1 {
+      margin-right: 10px;
+      margin-top: 30px; }
     .container-suc .principal-card .principal-info div h1 {
       font-weight: 500;
       font-size: 15px;
-      margin-top: 5px; }
+      margin-top: 80px;
+      margin-bottom: 5px; }
     .container-suc .principal-card .principal-info div p {
       color: black;
       font-weight: 300;
@@ -390,7 +387,25 @@ footer {
 @media (max-width: 480px) {
   .contProd {
     flex-direction: column;
-    align-content: center; } }
+    align-content: center; }
+  .container-suc {
+    gap: 10px; }
+    .container-suc .principal-card img {
+      height: 150px; }
+  .container-suc .principal-card .card1 {
+    margin-right: 10px;
+    margin-top: 30px;
+    height: 150px; }
+  .container-suc .principal-card .principal-info div h1 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 200px;
+    margin-bottom: 5px; }
+  .container-suc .principal-card .principal-info div p {
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 5px 5px; } }
 
 @media (max-width: 320px) {
   .encabezado {
@@ -471,11 +486,11 @@ footer {
     gap: 10px;
     margin-right: 5px;
     margin-left: 5px; }
-    .container-suc .principal-card .card1 img {
-      height: 200px; }
+    .container-suc .principal-card img.card1 {
+      height: 100px; }
     .container-suc .principal-card .principal-info div h1 {
-      font-weight: 400;
-      font-size: 18px;
+      font-weight: 200;
+      font-size: 12px;
       margin-top: 10px;
       color: red; }
     .container-suc .principal-card .principal-info div p {

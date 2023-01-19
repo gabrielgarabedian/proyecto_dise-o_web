@@ -2,5 +2,38 @@
     .contProd{
         flex-direction: column;
         align-content: center;
-}
+    }
+    .container-suc{
+        gap: 10px;
+        .principal-card{
+            img {
+                height: 150px;
+            }
+        }
+    }
+    .container-suc {
+        .principal-card{ 
+            .card1 {
+                margin-right: 10px;
+                margin-top: 30px;
+                height: 150px;
+            }  
+            .principal-info{
+                div{
+                    h1{
+                        font-weight: 500;
+                        font-size: 18px ;
+                        margin-top: 200px;
+                        margin-bottom: 5px ;
+                    }
+                    p{
+                        color: $bg-principal;
+                        font-weight: 300;
+                        font-size: 14px ;
+                        margin: 5px 5px 
+                    }
+                }
+            }
+        }
+    }
 }   

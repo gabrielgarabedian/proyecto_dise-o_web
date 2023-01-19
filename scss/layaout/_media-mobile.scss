@@ -119,14 +119,14 @@
             gap: 10px;
             margin-right: 5px;
             margin-left: 5px;
-            .card1 img{
-                height: 200px;
+            img.card1 {
+                height: 100px;
             }  
             .principal-info{
                 div{
                     h1{
-                        font-weight: 400;
-                        font-size: 18px ;
+                        font-weight: 200;
+                        font-size: 12px ;
                         margin-top: 10px;
                         color: $colorContacto;
                     }
