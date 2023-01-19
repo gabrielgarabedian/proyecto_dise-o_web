@@ -158,7 +158,6 @@ main {
   .container-suc .principal-card {
     padding: 40px;
     display: flex;
-    gap: 30px;
     margin-right: 40px;
     margin-left: 50px;
     margin-top: 0px;
@@ -356,8 +355,7 @@ footer {
         font-size: 20px;
         color: red; }
   .container-suc .principal-card {
-    flex-direction: column;
-    gap: 10px; }
+    flex-direction: column; }
     .container-suc .principal-card .card1 {
       margin-right: 10px;
       margin-top: 30px; }
@@ -392,20 +390,22 @@ footer {
     gap: 10px; }
     .container-suc .principal-card img {
       height: 150px; }
-  .container-suc .principal-card .card1 {
-    margin-right: 10px;
-    margin-top: 30px;
-    height: 150px; }
-  .container-suc .principal-card .principal-info div h1 {
-    font-weight: 500;
-    font-size: 18px;
-    margin-top: 200px;
-    margin-bottom: 5px; }
-  .container-suc .principal-card .principal-info div p {
-    color: black;
-    font-weight: 300;
-    font-size: 14px;
-    margin: 5px 5px; } }
+  .container-suc .principal-card {
+    margin-right: 2px;
+    margin-left: 2px; }
+    .container-suc .principal-card .card1 {
+      margin: 5px 6px;
+      height: 120px; }
+    .container-suc .principal-card .principal-info div h1 {
+      font-weight: 500;
+      font-size: 18px;
+      margin-top: 220px;
+      margin-bottom: 5px; }
+    .container-suc .principal-card .principal-info div p {
+      color: black;
+      font-weight: 300;
+      font-size: 14px;
+      margin: 5px 5px; } }
 
 @media (max-width: 320px) {
   .encabezado {
@@ -483,15 +483,15 @@ footer {
           font-size: 15px;
           color: grey; }
   .container-suc .principal-card {
-    gap: 10px;
-    margin-right: 5px;
-    margin-left: 5px; }
+    margin-right: 0px;
+    margin-left: 0px; }
     .container-suc .principal-card img.card1 {
-      height: 100px; }
+      height: 80px;
+      margin: 5px 6px; }
     .container-suc .principal-card .principal-info div h1 {
-      font-weight: 200;
+      font-weight: 100;
       font-size: 12px;
-      margin-top: 10px;
+      margin-top: 230px;
       color: red; }
     .container-suc .principal-card .principal-info div p {
       color: black;
