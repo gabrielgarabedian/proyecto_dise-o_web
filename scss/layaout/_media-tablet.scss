@@ -31,20 +31,19 @@
             h1{
                 letter-spacing: 2px;
                 font-size: 60;
-                font-weight: 900;
-                margin-top: 30PX; 
+                font-weight: 900; 
                 color: $colorContacto; 
             }
         }
         .cardCentral1 img{
-            width: 80%;
+            width: 60%;
         }
         .cardCentral2 img{
-            width: 80%;
+            width: 60%;
             
         }
         .cardCentral3 img{
-            width: 80%;
+            width: 60%;
         }
         .pagos{
             p{
@@ -62,10 +61,12 @@
         .leyenda{
             font-size: 15px;
             font-weight: 700;
+            color: $bg-principal
         }
         .text{
             @include fonts(10px,200,$typo-principal,oblique);
             padding: 8px;
+            color: $bg-principal;
         }
         .datos {
             font-weight: 300;
@@ -118,7 +119,7 @@
             flex-direction: column; 
             .card1 {
                 margin-right: 10px;
-                margin-top: 30px;
+                margin-top: 10px;
                 
             }  
             .principal-info{
@@ -126,7 +127,7 @@
                     h1{
                         font-weight: 500;
                         font-size: 15px ;
-                        margin-top: 80px;
+                        margin-top: 50px;
                         margin-bottom: 5px ;
                     }
                     p{
@@ -150,11 +151,11 @@
         }
     }
     .pie {
-        h5{
+        h1{
             font-weight: 300;
             font-size: 9px ;
         }
-        h6{
+        h2{
             font-weight: 200;
             font-size: 8px ;
         }

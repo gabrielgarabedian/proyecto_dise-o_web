@@ -37,4 +37,28 @@
             }
         }
     }
+    .destacados{
+        .titulo{
+            h1{
+                font-size: 20px;
+                margin-top: 25px;
+            }
+        }
+        .cardCentral1 img{
+            width: 55%;
+        }
+        .cardCentral2 img{
+            width: 55%;
+            
+        }
+        .cardCentral3 img{
+            width: 55%;
+        }
+        .pagos{
+            p{
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+    }
 }   
