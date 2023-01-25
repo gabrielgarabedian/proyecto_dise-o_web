@@ -407,16 +407,16 @@ footer {
       font-size: 14px;
       margin: 2px 4px; }
   .destacados .titulo h1, .destacados .titulo .pie h2, .pie .destacados .titulo h2 {
-    font-size: 20px;
-    margin-top: 25px; }
+    font-size: 19px;
+    margin-top: 20px; }
   .destacados .cardCentral1 img {
-    width: 55%; }
+    width: 45%; }
   .destacados .cardCentral2 img {
-    width: 55%; }
+    width: 45%; }
   .destacados .cardCentral3 img {
-    width: 55%; }
+    width: 45%; }
   .destacados .pagos p {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400; } }
 
 @media (max-width: 320px) {
@@ -443,14 +443,14 @@ footer {
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: "titulo" "cardCentral1" "cardCentral2" "cardCentral3" "pagos"; }
     .destacados .titulo h1, .destacados .titulo .pie h2, .pie .destacados .titulo h2 {
-      font-size: 18px;
-      margin-top: 20px; }
+      font-size: 17px;
+      margin-top: 18px; }
     .destacados .cardCentral1 img {
-      width: 45%; }
+      width: 35%; }
     .destacados .cardCentral2 img {
-      width: 45%; }
+      width: 35%; }
     .destacados .cardCentral3 img {
-      width: 45%; }
+      width: 35%; }
     .destacados .pagos p {
       font-size: 12px;
       font-weight: 300;
