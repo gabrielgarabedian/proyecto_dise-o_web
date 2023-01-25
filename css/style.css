@@ -352,8 +352,7 @@ footer {
       padding: 15px 25px; }
       .tienda .contProd .card-item .item .info-product h2 {
         font-weight: 500;
-        font-size: 20px;
-        color: red; }
+        font-size: 20px; }
   .container-suc .principal-card {
     flex-direction: column; }
     .container-suc .principal-card .card1 {
@@ -480,8 +479,7 @@ footer {
         padding: 10px 20px; }
         .tienda .contProd .card-item .item .info-product h2 {
           font-weight: 400;
-          font-size: 15px;
-          color: grey; }
+          font-size: 15px; }
   .container-suc .principal-card {
     margin-right: 0px;
     margin-left: 0px; }
