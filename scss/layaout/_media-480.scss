@@ -1,63 +1,31 @@
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width:330px){
     .contProd{
         flex-direction: column;
         align-content: center;
     }
-    .container-suc{
-        gap: 10px;
-        .principal-card{
-            img {
-                height: 150px;
-            }
-        }
-    }
-    .container-suc {
-        .principal-card{ 
-            margin-right: 2px;
-            margin-left: 2px;
-            .card1 {
-                margin: 5px 6px;
-                height: 120px;
-            }  
-            .principal-info{
-                div{
-                    h1{
-                        font-weight: 500;
-                        font-size: 18px ;
-                        margin-top: 225px;
-                        margin-bottom: 5px ;
-                    }
-                    p{
-                        color: $bg-principal;
-                        font-weight: 300;
-                        font-size: 14px ;
-                        margin: 2px 4px 
-                    }
-                }
-            }
-        }
-    }
+
     .destacados{
         .titulo{
             h1{
-                font-size: 19px;
-                margin-top: 20px;
+                font-size: 20px;
+                margin-top: 12px;
             }
         }
         .cardCentral1 img{
-            width: 45%;
+            width: 37%;
         }
         .cardCentral2 img{
-            width: 45%;
+            width: 37%;
             
         }
         .cardCentral3 img{
-            width: 45%;
+            width: 37%;
         }
         .pagos{
             p{
-                font-size: 13px;
+                font-size: 16px;
                 font-weight: 400;
+                margin-top: 7px;
             }
         }
     }

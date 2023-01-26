@@ -1,6 +1,6 @@
 @media (max-width:320px){
     .encabezado {
-        gap: 2px;
+        gap: 3px;
         div{
             a{
                 img{
@@ -12,11 +12,11 @@
             }
         }
         .navBar{
-            gap: 2px;
+            gap: 3px;
             
             li{
                 a{
-                    font-size: 12px;
+                    font-size: 16px;
                 }
             }
         }
@@ -26,14 +26,14 @@
         .box p{
             padding: 70px;
             font-weight: 700;
-            font-size: 12px ;
+            font-size: 15px ;
         }
     }
     .destacados{
         @include grid-mobile
         .titulo{
             h1{
-                font-size: 17px;
+                font-size: 18px;
                 margin-top: 18px;
             }
         }
@@ -49,10 +49,11 @@
         }
         .pagos{
             p{
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 300;
                 font-style: normal;
                 color: $colorContacto;
+                margin-top: 5px;
             }
         }
     }
@@ -60,7 +61,7 @@
         width: 200px;
         padding: 15px;
         .leyenda{
-            font-size: 12px;
+            font-size: 15px;
             font-weight: 500;
             color: $colorContacto;
         }
@@ -70,7 +71,7 @@
         }
         .datos {
             font-weight: 300;
-            font-size: 12px ;
+            font-size: 13px ;
             width: 95%;
         }
     }
@@ -83,15 +84,15 @@
                 }
             }
             div {
-                padding: 3px;
-                font-size: 9px;
+                padding: 2px;
+                font-size: 12px;
                 font-weight: 200;
             }
         }
     }  
     .tienda{
         h1{
-            font-size: 15px;
+            font-size: 16px;
             letter-spacing: 1px;
             padding-top: 15px;
             padding-bottom: 25px;
@@ -115,18 +116,14 @@
     }
     .container-suc {
         .principal-card{
-            margin-right: 0px;
-            margin-left: 0px;
             img.card1 {
-                height: 60px;
                 margin: 4px 6px;
             }  
             .principal-info{
                 div{
                     h1{
                         font-weight: 200;
-                        font-size: 12px ;
-                        margin-top: 218px;
+                        font-size: 15px ;
                         color: $colorContacto;
                     }
                     p{
@@ -152,13 +149,9 @@
         }
     }
     .pie {
-        h1{
-            font-weight: 200;
-            font-size: 7px ;
-        }
-        h2{
+        p{
             font-weight: 100;
-            font-size: 5px ;
+            font-size: 13px ;
         }
     }
 }

@@ -5,17 +5,12 @@ footer{
 .pie {
     margin-bottom:  auto;
     width: 100%;
-    h1{
+    p{
         color: $bg-secundario;
         text-decoration: none;
-        @include fonts(14px,500,$typo-principal,normal)
+        @include fonts(14px,400,$typo-principal,normal)
         text-align: center;
         margin-top: 8px;
         margin-bottom: 8px;
-    }
-    h2 {
-        @extend h1 ;
-        font-weight: 400;
-        font-size: 10px ;
     }
 }

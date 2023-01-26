@@ -57,13 +57,14 @@ main {
 
 .destacados {
   height: 100vh;
+  margin-bottom: 0px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "titulo titulo titulo" "cardCentral1 cardCentral2 cardCentral3" "pagos pagos pagos"; }
   .destacados .titulo {
     grid-area: titulo; }
-    .destacados .titulo h1, .destacados .titulo .pie h2, .pie .destacados .titulo h2 {
+    .destacados .titulo h1 {
       color: black;
       font-size: 40px;
       font-weight: 600;
@@ -107,7 +108,7 @@ main {
       font-family: "Roboto Slab", serif;
       font-style: normal;
       text-align: center;
-      margin-top: 45px; }
+      margin-top: 30px; }
 
 .containerContacto {
   width: 800;
@@ -154,20 +155,21 @@ main {
 
 .container-suc {
   width: 100%;
-  height: 100vh; }
+  height: 100vh;
+  margin-bottom: 0px; }
   .container-suc .principal-card {
-    padding: 40px;
+    width: 90%;
+    padding: 15px;
     display: flex;
-    margin-right: 40px;
-    margin-left: 50px;
-    margin-top: 0px;
-    margin-bottom: 6px; }
-    .container-suc .principal-card .card1 img {
-      width: 100%;
-      height: 350px;
-      object-fit: cover;
-      margin-right: 70px; }
-    .container-suc .principal-card .principal-info div h1, .container-suc .principal-card .principal-info div .pie h2, .pie .container-suc .principal-card .principal-info div h2 {
+    align-items: center;
+    margin: auto; }
+    .container-suc .principal-card .card1 {
+      width: 50%; }
+      .container-suc .principal-card .card1 img {
+        width: 100%;
+        object-fit: cover;
+        margin-right: 70px; }
+    .container-suc .principal-card .principal-info div h1 {
       padding: 5px 5px;
       text-align: center;
       color: black;
@@ -189,7 +191,7 @@ main {
 
 .containerNosotros {
   height: 100vh; }
-  .containerNosotros h1, .containerNosotros .pie h2, .pie .containerNosotros h2 {
+  .containerNosotros h1 {
     color: black;
     font-size: 35px;
     font-weight: 900;
@@ -209,7 +211,7 @@ main {
 .tienda {
   width: 95%;
   margin: auto; }
-  .tienda h1, .tienda .pie h2, .pie .tienda h2 {
+  .tienda h1 {
     color: black;
     font-size: 50px;
     font-weight: 500;
@@ -264,19 +266,16 @@ footer {
 .pie {
   margin-bottom: auto;
   width: 100%; }
-  .pie h1, .pie h2 {
+  .pie p {
     color: white;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: "Roboto Slab", serif;
     font-style: normal;
     text-align: center;
     margin-top: 8px;
     margin-bottom: 8px; }
-  .pie h2 {
-    font-weight: 400;
-    font-size: 10px; }
 
 @media (max-width: 768px) {
   .encabezado {
@@ -299,21 +298,22 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
-    .destacados .titulo h1, .destacados .titulo .pie h2, .pie .destacados .titulo h2 {
+    .destacados .titulo h1 {
       letter-spacing: 2px;
       font-size: 60;
       font-weight: 900;
       color: red; }
     .destacados .cardCentral1 img {
-      width: 60%; }
+      width: 40%; }
     .destacados .cardCentral2 img {
-      width: 60%; }
+      width: 40%; }
     .destacados .cardCentral3 img {
-      width: 60%; }
+      width: 40%; }
     .destacados .pagos p {
       font-size: 15px;
       font-weight: 500;
-      font-style: italic; }
+      font-style: italic;
+      margin-top: 10px; }
   .containerContacto {
     width: 340px;
     padding: 30px;
@@ -340,7 +340,7 @@ footer {
       padding: 5px;
       font-size: 12px;
       font-weight: 500; }
-  .tienda h1, .tienda .pie h2, .pie .tienda h2 {
+  .tienda h1 {
     font-size: 28px;
     letter-spacing: 3px;
     padding-top: 25px;
@@ -358,92 +358,70 @@ footer {
     flex-direction: column; }
     .container-suc .principal-card .card1 {
       margin-right: 10px;
-      margin-top: 10px; }
-    .container-suc .principal-card .principal-info div h1, .container-suc .principal-card .principal-info div .pie h2, .pie .container-suc .principal-card .principal-info div h2 {
+      margin-top: 8px; }
+    .container-suc .principal-card .principal-info div h1 {
       font-weight: 500;
-      font-size: 15px;
-      margin-top: 50px;
+      font-size: 14px;
+      margin-top: 20px;
       margin-bottom: 5px; }
     .container-suc .principal-card .principal-info div p {
       color: black;
       font-weight: 300;
-      font-size: 20px;
+      font-size: 13px;
       margin: 5px 5px; }
-  .containerNosotros h1, .containerNosotros .pie h2, .pie .containerNosotros h2 {
-    font-size: 25px;
+  .containerNosotros h1 {
+    font-size: 20px;
     font-weight: 500; }
   .containerNosotros p {
     font-size: 14px;
     color: black; }
-  .pie h1, .pie h2 {
-    font-weight: 300;
-    font-size: 9px; }
-  .pie h2 {
+  .pie p {
     font-weight: 200;
-    font-size: 8px; } }
+    font-size: 12px; } }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (min-width: 330px) {
   .contProd {
     flex-direction: column;
     align-content: center; }
-  .container-suc {
-    gap: 10px; }
-    .container-suc .principal-card img {
-      height: 150px; }
-  .container-suc .principal-card {
-    margin-right: 2px;
-    margin-left: 2px; }
-    .container-suc .principal-card .card1 {
-      margin: 5px 6px;
-      height: 120px; }
-    .container-suc .principal-card .principal-info div h1, .container-suc .principal-card .principal-info div .pie h2, .pie .container-suc .principal-card .principal-info div h2 {
-      font-weight: 500;
-      font-size: 18px;
-      margin-top: 225px;
-      margin-bottom: 5px; }
-    .container-suc .principal-card .principal-info div p {
-      color: black;
-      font-weight: 300;
-      font-size: 14px;
-      margin: 2px 4px; }
-  .destacados .titulo h1, .destacados .titulo .pie h2, .pie .destacados .titulo h2 {
-    font-size: 19px;
-    margin-top: 20px; }
+  .destacados .titulo h1 {
+    font-size: 20px;
+    margin-top: 12px; }
   .destacados .cardCentral1 img {
-    width: 45%; }
+    width: 37%; }
   .destacados .cardCentral2 img {
-    width: 45%; }
+    width: 37%; }
   .destacados .cardCentral3 img {
-    width: 45%; }
+    width: 37%; }
   .destacados .pagos p {
-    font-size: 13px;
-    font-weight: 400; } }
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 7px; } }
 
 @media (max-width: 320px) {
   .encabezado {
-    gap: 2px; }
+    gap: 3px; }
     .encabezado div a img {
       width: 65%;
       margin-top: 10px;
       margin-bottom: 10px;
       margin-left: 25px; }
     .encabezado .navBar {
-      gap: 2px; }
+      gap: 3px; }
       .encabezado .navBar li a {
-        font-size: 12px; }
+        font-size: 16px; }
   .containerImagen {
     height: 150px; }
     .containerImagen .box p {
       padding: 70px;
       font-weight: 700;
-      font-size: 12px; }
+      font-size: 15px; }
   .destacados {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: "titulo" "cardCentral1" "cardCentral2" "cardCentral3" "pagos"; }
-    .destacados .titulo h1, .destacados .titulo .pie h2, .pie .destacados .titulo h2 {
-      font-size: 17px;
+    .destacados .titulo h1 {
+      font-size: 18px;
       margin-top: 18px; }
     .destacados .cardCentral1 img {
       width: 35%; }
@@ -452,15 +430,16 @@ footer {
     .destacados .cardCentral3 img {
       width: 35%; }
     .destacados .pagos p {
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 300;
       font-style: normal;
-      color: red; }
+      color: red;
+      margin-top: 5px; }
   .containerContacto {
     width: 200px;
     padding: 15px; }
     .containerContacto .leyenda {
-      font-size: 12px;
+      font-size: 15px;
       font-weight: 500;
       color: red; }
     .containerContacto .text {
@@ -468,18 +447,18 @@ footer {
       padding: 5px; }
     .containerContacto .datos {
       font-weight: 300;
-      font-size: 12px;
+      font-size: 13px;
       width: 95%; }
   .phone div {
     padding: 4px; }
     .phone div div img {
       width: 60%; }
     .phone div div {
-      padding: 3px;
-      font-size: 9px;
+      padding: 2px;
+      font-size: 12px;
       font-weight: 200; }
-  .tienda h1, .tienda .pie h2, .pie .tienda h2 {
-    font-size: 15px;
+  .tienda h1 {
+    font-size: 16px;
     letter-spacing: 1px;
     padding-top: 15px;
     padding-bottom: 25px; }
@@ -493,22 +472,17 @@ footer {
         .tienda .contProd .card-item .item .info-product h2 {
           font-weight: 400;
           font-size: 15px; }
-  .container-suc .principal-card {
-    margin-right: 0px;
-    margin-left: 0px; }
-    .container-suc .principal-card img.card1 {
-      height: 60px;
-      margin: 4px 6px; }
-    .container-suc .principal-card .principal-info div h1, .container-suc .principal-card .principal-info div .pie h2, .pie .container-suc .principal-card .principal-info div h2 {
-      font-weight: 200;
-      font-size: 12px;
-      margin-top: 218px;
-      color: red; }
-    .container-suc .principal-card .principal-info div p {
-      color: black;
-      font-weight: 100;
-      font-size: 10px; }
-  .containerNosotros h1, .containerNosotros .pie h2, .pie .containerNosotros h2 {
+  .container-suc .principal-card img.card1 {
+    margin: 4px 6px; }
+  .container-suc .principal-card .principal-info div h1 {
+    font-weight: 200;
+    font-size: 15px;
+    color: red; }
+  .container-suc .principal-card .principal-info div p {
+    color: black;
+    font-weight: 100;
+    font-size: 10px; }
+  .containerNosotros h1 {
     color: red;
     font-size: 15px;
     font-weight: 200;
@@ -517,9 +491,6 @@ footer {
     color: black;
     font-size: 12px;
     font-weight: 300; }
-  .pie h1, .pie h2 {
-    font-weight: 200;
-    font-size: 7px; }
-  .pie h2 {
+  .pie p {
     font-weight: 100;
-    font-size: 5px; } }
+    font-size: 13px; } }
