@@ -143,12 +143,15 @@
     }
     .containerNosotros{
         h1{
-            font-size: 20px;
+            font-size: 30px;
             font-weight: 500;
+            margin-top: 35px;
         }
         p{
-            font-size: 14px;
+            font-size: 15px;
             color: $bg-principal;
+            margin-top: 30px 80px;
+            text-align: start;
         }
     }
     .pie {

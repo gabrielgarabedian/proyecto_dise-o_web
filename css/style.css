@@ -28,14 +28,16 @@ header {
   gap: 35px;
   margin-right: 20px;
   margin-top: 40px; }
-  .navBar li a {
-    color: azure;
-    text-decoration: none;
-    font-size: 15px;
-    font-style: normal;
-    font-family: 'Roboto Slab', serif; }
-    .navBar li a:hover {
-      color: chocolate; }
+  .navBar li {
+    list-style: none; }
+    .navBar li a {
+      color: azure;
+      text-decoration: none;
+      font-size: 15px;
+      font-style: normal;
+      font-family: 'Roboto Slab', serif; }
+      .navBar li a:hover {
+        color: chocolate; }
 
 main {
   background-color: white; }
@@ -113,9 +115,9 @@ main {
 .containerContacto {
   width: 800;
   height: 100vh;
-  padding: 60px;
+  padding: 80px;
   color: black;
-  margin: auto; }
+  margin-top: 40px; }
   .containerContacto .leyenda {
     font-size: 25px;
     font-weight: 900;
@@ -127,10 +129,10 @@ main {
     font-weight: 300;
     font-family: "Roboto Slab", serif;
     font-style: normal;
-    padding: 10px; }
+    padding: 25px; }
   .containerContacto .datos {
     width: 98%;
-    padding: 8px;
+    padding: 12px;
     border-radius: 4px;
     margin-left: 5px;
     margin-right: 5px;
@@ -143,7 +145,7 @@ main {
 .phone div {
   display: flex;
   justify-content: space-around;
-  padding: 30px 20px 30px 30px; }
+  padding: 10px 20px 50px 30px; }
   .phone div div {
     padding: 20px;
     text-align: center;
@@ -152,6 +154,8 @@ main {
     font-weight: 700;
     font-family: white;
     font-style: oblique; }
+    .phone div div img {
+      width: 95%; }
 
 .container-suc {
   width: 100%;
@@ -198,15 +202,15 @@ main {
     font-family: "Roboto Slab", serif;
     font-style: oblique;
     text-align: center;
-    margin-top: 35px; }
+    margin-top: 45px; }
   .containerNosotros p {
     color: grey;
     font-size: 18px;
     font-weight: 400;
     font-family: "Merriweather", serif;
     font-style: oblique;
-    text-align: center;
-    margin: 50px 40px; }
+    text-align: justify;
+    margin: 45px 70px; }
 
 .tienda {
   width: 95%;
@@ -228,7 +232,7 @@ main {
     flex-wrap: wrap; }
     .tienda .contProd .card-item {
       display: block;
-      margin: 8px; }
+      margin: 48px; }
       .tienda .contProd .card-item .item {
         border-radius: 10px; }
         .tienda .contProd .card-item .item:hover {
@@ -370,11 +374,14 @@ footer {
       font-size: 13px;
       margin: 5px 5px; }
   .containerNosotros h1 {
-    font-size: 20px;
-    font-weight: 500; }
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 35px; }
   .containerNosotros p {
-    font-size: 14px;
-    color: black; }
+    font-size: 15px;
+    color: black;
+    margin-top: 30px 80px;
+    text-align: start; }
   .pie p {
     font-weight: 200;
     font-size: 12px; } }
@@ -486,11 +493,13 @@ footer {
     color: red;
     font-size: 15px;
     font-weight: 200;
-    font-style: normal; }
+    font-style: normal;
+    margin-top: 20px; }
   .containerNosotros p {
     color: black;
     font-size: 12px;
-    font-weight: 300; }
+    font-weight: 300;
+    margin-top: 15px; }
   .pie p {
     font-weight: 100;
     font-size: 13px; } }

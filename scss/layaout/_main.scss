@@ -64,20 +64,20 @@ main {
 .containerContacto {
     width: 800;
     height: 100vh;
-    padding: 60px;
+    padding: 80px;
     color: $bg-principal;
-    margin: auto;
+    margin-top: 40px;
     .leyenda {
         @include fonts(25px, 900, $typo-secundario,oblique);
     }
     .text{
         color: $colorContacto;
         @include fonts(15px,300,$typo-principal,normal);
-        padding: 10px;
+        padding: 25px;
     }
     .datos {
         width: 98%;
-        padding: 8px;
+        padding: 12px;
         border-radius: 4px;
         margin-left: 5px;
         margin-right: 5px;
@@ -89,15 +89,17 @@ main {
 .phone {
     div {
         @include flex-content (flex,space-around);
-        padding: 30px 20px 30px 30px;
+        padding: 10px 20px 50px 30px;
         div {
             padding: 20px;
             text-align: center;
             color: $bg-principal;
             @include fonts(20px,700, $bg-secundario,oblique);
+            img {
+                width: 95%;
+            }
         }
     }
-
 }
 
 .container-suc{
@@ -147,13 +149,13 @@ main {
         color: $bg-principal;
         @include fonts(35px,900,$typo-principal,oblique);
         text-align: center;
-        margin-top: 35px;
+        margin-top: 45px;
     }
     p {
         color: $bg-terciario;
         @include fonts(18px,400,$typo-secundario,oblique);
-        text-align: center;
-        margin: 50px 40px ;
+        text-align: justify;
+        margin: 45px 70px ;
     }
 }
 
@@ -174,7 +176,7 @@ main {
         flex-wrap: wrap;
         .card-item{
             display: block;
-            margin: 8px;
+            margin: 48px;
             .item{
                 border-radius: 10px;
                 &:hover{
