@@ -57,8 +57,9 @@
     }
     .containerContacto {
         width: 340px;
-        padding: 30px;
+        padding: 25px;
         margin: auto;
+        margin-top: 30px;
         .leyenda{
             font-size: 15px;
             font-weight: 700;
@@ -76,10 +77,10 @@
     }
     .phone {
         div {
-            padding: 2px;
+            margin-bottom: 28px;
             div {
                 img {
-                    width: 45%;
+                    width: 75%;
                 }
             }
             div {
@@ -118,24 +119,19 @@
     .container-suc {
         .principal-card{
             flex-direction: column; 
-            .card1 {
-                margin-right: 10px;
-                margin-top: 8px;
-                
-            }  
             .principal-info{
                 div{
                     h1{
                         font-weight: 500;
-                        font-size: 14px ;
-                        margin-top: 20px;
+                        font-size: 18px ;
+                        margin-top: 35px;
                         margin-bottom: 5px ;
                     }
                     p{
                         color: $bg-principal;
                         font-weight: 300;
                         font-size: 13px ;
-                        margin: 5px 5px 
+                        margin: 25px 5px 
                     }
                 }
             }
