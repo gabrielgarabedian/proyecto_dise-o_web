@@ -143,14 +143,14 @@
             font-size: 15px;
             font-weight: 200;
             font-style: normal;
-            margin-top: 20px;
+            margin-top: 15px;
         }
         p {
             color: $bg-principal;
             font-size: 12px;
             font-weight: 300;
-            margin-top: 15px;
-            
+            margin: 15px 15px;
+            overflow-y: scroll;
         }
     }
     .pie {

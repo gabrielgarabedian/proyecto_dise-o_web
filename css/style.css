@@ -169,7 +169,7 @@ main {
     align-items: center;
     margin: auto; }
     .container-suc .principal-card .card1 {
-      width: 70%; }
+      width: 55%; }
       .container-suc .principal-card .card1 img {
         width: 100%;
         object-fit: cover; }
@@ -301,7 +301,8 @@ footer {
   .destacados {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    overflow-y: scroll; }
     .destacados .titulo h1 {
       letter-spacing: 2px;
       font-size: 60;
@@ -494,12 +495,13 @@ footer {
     font-size: 15px;
     font-weight: 200;
     font-style: normal;
-    margin-top: 20px; }
+    margin-top: 15px; }
   .containerNosotros p {
     color: black;
     font-size: 12px;
     font-weight: 300;
-    margin-top: 15px; }
+    margin: 15px 15px;
+    overflow-y: scroll; }
   .pie p {
     font-weight: 100;
     font-size: 13px; } }

@@ -27,6 +27,7 @@
     .destacados{
         @include flex-content(flex,space-around);
         flex-wrap: wrap;
+        overflow-y: scroll;
         .titulo{
             h1{
                 letter-spacing: 2px;
