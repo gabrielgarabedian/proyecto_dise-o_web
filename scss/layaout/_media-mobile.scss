@@ -122,11 +122,13 @@
                 margin: 4px 6px;
             }  
             .principal-info{
+                overflow-y: scroll;
                 div{
                     h1{
                         font-weight: 200;
                         font-size: 15px ;
                         color: $colorContacto;
+                        margin-top: 15px;
                     }
                     p{
                         color: $bg-principal;
@@ -138,6 +140,7 @@
         }
     }
     .containerNosotros{
+        overflow-y: scroll;
         h1 {
             color: $colorContacto;
             font-size: 15px;
@@ -149,8 +152,7 @@
             color: $bg-principal;
             font-size: 12px;
             font-weight: 300;
-            margin: 15px 15px;
-            overflow-y: scroll;
+            margin: 10px 15px;
         }
     }
     .pie {

@@ -115,7 +115,7 @@ main {
 .containerContacto {
   width: 800;
   height: 100vh;
-  padding: 80px;
+  padding: 70px;
   color: black;
   margin-top: 0px; }
   .containerContacto .leyenda {
@@ -145,7 +145,7 @@ main {
 .phone div {
   display: flex;
   justify-content: space-around;
-  padding: 3px 20px 50px 30px; }
+  padding: 10px; }
   .phone div div {
     padding: 20px;
     text-align: center;
@@ -169,7 +169,7 @@ main {
     align-items: center;
     margin: auto; }
     .container-suc .principal-card .card1 {
-      width: 55%; }
+      width: 50%; }
       .container-suc .principal-card .card1 img {
         width: 100%;
         object-fit: cover; }
@@ -182,7 +182,8 @@ main {
       font-family: "Roboto Slab", serif;
       font-style: normal;
       text-decoration: none;
-      margin-top: 40px; }
+      margin-top: 40px;
+      margin-left: 60px; }
     .container-suc .principal-card .principal-info div p {
       padding: 5px 5px;
       text-align: center;
@@ -191,7 +192,8 @@ main {
       font-size: 18px;
       font-weight: 500px;
       font-family: "Merriweather", serif;
-      font-style: oblique; }
+      font-style: oblique;
+      margin-left: 60px; }
 
 .containerNosotros {
   height: 100vh; }
@@ -339,7 +341,7 @@ footer {
       font-weight: 300;
       font-size: 12px; }
   .phone div {
-    margin-bottom: 28px; }
+    margin-bottom: 15px; }
     .phone div div img {
       width: 75%; }
     .phone div div {
@@ -360,27 +362,34 @@ footer {
       .tienda .contProd .card-item .item .info-product h2 {
         font-weight: 500;
         font-size: 20px; }
-  .container-suc .principal-card {
-    flex-direction: column; }
-    .container-suc .principal-card .principal-info div h1 {
+  .container-suc {
+    overflow-y: scroll; }
+    .container-suc .principal-card {
+      flex-direction: column; }
+      .container-suc .principal-card .card1 {
+        width: 60%; }
+      .container-suc .principal-card .principal-info div h1 {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 35px;
+        margin-bottom: 5px;
+        margin-left: auto; }
+      .container-suc .principal-card .principal-info div p {
+        color: black;
+        font-weight: 300;
+        font-size: 13px;
+        margin: 25px 5px; }
+  .containerNosotros {
+    overflow-y: scroll; }
+    .containerNosotros h1 {
+      font-size: 30px;
       font-weight: 500;
-      font-size: 18px;
-      margin-top: 35px;
-      margin-bottom: 5px; }
-    .container-suc .principal-card .principal-info div p {
+      margin-top: 35px; }
+    .containerNosotros p {
+      font-size: 15px;
       color: black;
-      font-weight: 300;
-      font-size: 13px;
-      margin: 25px 5px; }
-  .containerNosotros h1 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 35px; }
-  .containerNosotros p {
-    font-size: 15px;
-    color: black;
-    margin-top: 30px 80px;
-    text-align: start; }
+      margin-top: 30px 80px;
+      text-align: start; }
   .pie p {
     font-weight: 200;
     font-size: 12px; } }
@@ -482,26 +491,30 @@ footer {
           font-size: 15px; }
   .container-suc .principal-card img.card1 {
     margin: 4px 6px; }
-  .container-suc .principal-card .principal-info div h1 {
-    font-weight: 200;
-    font-size: 15px;
-    color: red; }
-  .container-suc .principal-card .principal-info div p {
-    color: black;
-    font-weight: 100;
-    font-size: 10px; }
-  .containerNosotros h1 {
-    color: red;
-    font-size: 15px;
-    font-weight: 200;
-    font-style: normal;
-    margin-top: 15px; }
-  .containerNosotros p {
-    color: black;
-    font-size: 12px;
-    font-weight: 300;
-    margin: 15px 15px;
+  .container-suc .principal-card .principal-info {
     overflow-y: scroll; }
+    .container-suc .principal-card .principal-info div h1 {
+      font-weight: 200;
+      font-size: 15px;
+      color: red;
+      margin-top: 15px; }
+    .container-suc .principal-card .principal-info div p {
+      color: black;
+      font-weight: 100;
+      font-size: 10px; }
+  .containerNosotros {
+    overflow-y: scroll; }
+    .containerNosotros h1 {
+      color: red;
+      font-size: 15px;
+      font-weight: 200;
+      font-style: normal;
+      margin-top: 15px; }
+    .containerNosotros p {
+      color: black;
+      font-size: 12px;
+      font-weight: 300;
+      margin: 10px 15px; }
   .pie p {
     font-weight: 100;
     font-size: 13px; } }

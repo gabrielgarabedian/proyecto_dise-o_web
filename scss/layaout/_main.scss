@@ -64,7 +64,7 @@ main {
 .containerContacto {
     width: 800;
     height: 100vh;
-    padding: 80px;
+    padding: 70px;
     color: $bg-principal;
     margin-top: 0px;
     .leyenda {
@@ -89,7 +89,7 @@ main {
 .phone {
     div {
         @include flex-content (flex,space-around);
-        padding: 3px 20px 50px 30px;
+        padding: 10px;
         div {
             padding: 20px;
             text-align: center;
@@ -114,11 +114,10 @@ main {
         align-items: center;
         margin: auto;
         .card1{
-            width: 55%;
+            width: 50%;
             img {
                 width: 100%;
-                object-fit: cover;
-                
+                object-fit: cover;     
             }
         }
         .principal-info {
@@ -130,6 +129,7 @@ main {
                     @include fonts(30px,600,$typo-principal,normal);
                     text-decoration: none;
                     margin-top: 40px;
+                    margin-left: 60px;
                 }
                 p{
                     padding: 5px 5px;
@@ -137,6 +137,7 @@ main {
                     color: $bg-terciario;
                     margin: 8px ;
                     @include fonts(18px,500px,$typo-secundario,oblique);
+                    margin-left: 60px;
                 }
             }
         }
