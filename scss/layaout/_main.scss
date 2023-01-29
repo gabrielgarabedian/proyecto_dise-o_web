@@ -205,7 +205,7 @@ main {
                         @include fonts(18px,500,$typo-principal,normal);
                     }
                     p{
-                        color: $bg-terciario;
+                        color: $bg-principal;
                         @include fonts(12px, 200, $typo-secundario,oblique);
                     }
                 }
