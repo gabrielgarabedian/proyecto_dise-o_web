@@ -34,6 +34,8 @@ main {
         margin-bottom: 15px;
         img{
             @include index-img;
+            @include transforms-img;
+            cursor:pointer;
         }
     }
     .cardCentral2{
@@ -41,6 +43,8 @@ main {
         margin-bottom: 15px;
         img{
             @include index-img;
+            @include transforms-img;
+            cursor:pointer;
         }
     }
 
@@ -49,6 +53,8 @@ main {
         margin-bottom: 15px;
         img{
             @include index-img;
+            @include transforms-img;
+            cursor: pointer;
         }
     }
     .pagos{

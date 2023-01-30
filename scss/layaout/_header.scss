@@ -26,6 +26,7 @@ header {
     margin-top: 40px;
     li {
         list-style: none;
+        cursor:pointer;
         a{
             color: $navBar;
             text-decoration: none;
