@@ -14,6 +14,9 @@
             margin-bottom: 5px;
             margin-top: 5px;
             gap: 5px;
+            li {
+                cursor:none;
+            }
         }
     }
     .containerImagen {
@@ -38,13 +41,15 @@
         }
         .cardCentral1 img{
             width: 40%;
+            cursor:none;
         }
         .cardCentral2 img{
             width: 40%;
-            
+            cursor:none;
         }
         .cardCentral3 img{
             width: 40%;
+            cursor:none;
         }
         .pagos{
             p{

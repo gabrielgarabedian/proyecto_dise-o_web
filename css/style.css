@@ -307,6 +307,8 @@ footer {
       margin-bottom: 5px;
       margin-top: 5px;
       gap: 5px; }
+      .encabezado .navBar li {
+        cursor: none; }
   .containerImagen {
     height: 250px; }
     .containerImagen .box p {
@@ -324,11 +326,14 @@ footer {
       font-weight: 900;
       color: red; }
     .destacados .cardCentral1 img {
-      width: 40%; }
+      width: 40%;
+      cursor: none; }
     .destacados .cardCentral2 img {
-      width: 40%; }
+      width: 40%;
+      cursor: none; }
     .destacados .cardCentral3 img {
-      width: 40%; }
+      width: 40%;
+      cursor: none; }
     .destacados .pagos p {
       font-size: 15px;
       font-weight: 500;
