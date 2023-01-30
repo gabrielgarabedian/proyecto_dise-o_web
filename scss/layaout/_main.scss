@@ -194,10 +194,7 @@ main {
                     height: 200px;
                     object-fit: cover;
                     border-radius: 10px 10px 0px 0px;
-                    transition: all .5s;
-                    &:hover{
-                        transform: scale(1.2);
-                    }
+                    @include transforms-img;
                 }
                 figure{
                     overflow: hidden;
